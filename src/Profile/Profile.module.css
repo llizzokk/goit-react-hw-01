@@ -1,5 +1,5 @@
 .wrapper {
-  width: 450px;
+  width: 400px;
   border-radius: 6px;
   border: 1px solid #000;
   margin-bottom: 30px;
@@ -20,13 +20,17 @@
   width: 150px;
   border-radius: 100%;
   background-color: #252525;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 
 .userName {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+.userTag {
+  margin-bottom: 5px;
 }
 
 .userTag,
@@ -46,7 +50,7 @@
   flex-direction: column;
   align-items: center;
   flex: 1;
-  padding: 10px;
+  padding: 15px;
   border-right: 1px solid #636363;
   border-top: 1px solid #636363;
   background-color: #9f9f9f;
@@ -54,6 +58,10 @@
 
 .statsItem:last-child {
   border-right: none;
+}
+
+.statsName {
+  margin-bottom: 5px;
 }
 
 .statsCount {
