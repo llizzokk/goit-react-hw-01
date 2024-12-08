@@ -1,0 +1,30 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  background-color: #252525;
+}
+
+.row:nth-child(even) {
+  background-color: #dfdfdf;
+}
+
+.headName {
+  border: 1px solid #000000;
+  padding: 4px 16px 4px 16px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.bodyData {
+  padding: 4px 16px 4px 16px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.dataType {
+  text-transform: capitalize;
+  text-align: start;
+}
